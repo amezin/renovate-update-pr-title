@@ -3,5 +3,7 @@
   "extends": [
     "config:recommended",
     "https://raw.githubusercontent.com/amezin/renovate-update-pr-title/main/preset.json"
-  ]
+  ],
+  "groupName": "All deps",
+  "groupSlug": "alldeps"
 }
