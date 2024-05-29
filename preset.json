@@ -1,14 +1,21 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
       "matchPackageNames": ["pyyaml"],
       "matchNewValue": "==6.0.1",
-      "commitMessagePrefix": "TEST"
+      "commitMessagePrefix": "TEST",
+      "prBodyDefinitions": {
+        "Special Column": "[123](https://www.google.com)"
+      }
     },
     {
       "matchPackageNames": ["pymeta3"],
       "matchNewValue": "==0.5.1",
-      "commitMessagePrefix": "TEST2"
+      "commitMessagePrefix": "TEST2",
+      "prBodyDefinitions": {
+        "Special Column": "[456](https://www.github.com)"
+      }
     }
   ]
 }
