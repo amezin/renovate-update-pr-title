@@ -7,7 +7,15 @@
       "commitMessagePrefix": "TEST",
       "prBodyDefinitions": {
         "Special Column": "[123](https://www.google.com)"
-      }
+      },
+      "prBodyColumns": [
+        "Package",
+        "Type",
+        "Update",
+        "Change",
+        "Pending",
+        "Special Column"
+      ]
     },
     {
       "matchPackageNames": ["pymeta3"],
@@ -15,7 +23,15 @@
       "commitMessagePrefix": "TEST2",
       "prBodyDefinitions": {
         "Special Column": "[456](https://www.github.com)"
-      }
+      },
+      "prBodyColumns": [
+        "Package",
+        "Type",
+        "Update",
+        "Change",
+        "Pending",
+        "Special Column"
+      ]
     }
   ]
 }
