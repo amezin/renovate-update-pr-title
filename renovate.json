@@ -3,13 +3,5 @@
   "extends": [
     "config:recommended",
     "https://raw.githubusercontent.com/amezin/renovate-update-pr-title/main/preset.json"
-  ],
-  "pip-compile": {
-    "fileMatch": [
-      "^requirements\\.txt$"
-    ]
-  },
-  "pip_requirements": {
-    "enabled": false
-  }
+  ]
 }

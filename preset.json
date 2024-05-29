@@ -2,7 +2,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["pyyaml"],
-      "matchNewValue": "/==6\\.0\\.1/",
+      "matchNewValue": "==6.0.1",
       "commitMessagePrefix": "TEST"
     }
   ]
