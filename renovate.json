@@ -6,12 +6,17 @@
   ],
   "groupName": "All deps",
   "groupSlug": "alldeps",
-  "prBodyColumns": [
-    "Package",
-    "Type",
-    "Update",
-    "Change",
-    "Pending",
-    "Special Column"
+  "packageRules": [
+    {
+      "matchPackageNames": ["pyyaml", "pymeta3"],
+      "prBodyColumns": [
+        "Package",
+        "Type",
+        "Update",
+        "Change",
+        "Pending",
+        "Special Column"
+      ]
+    }
   ]
 }
