@@ -1,2 +1,2 @@
-pyyaml==6.0
-pymeta3==0.5.0
+pyyaml==6.0.1
+pymeta3==0.5.1
