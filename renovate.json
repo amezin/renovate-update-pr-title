@@ -17,7 +17,7 @@
         "Pending",
         "Issue"
       ],
-      "commitMessagePrefix": "{{#each upgrades}}{{this.prBodyDefinitions.Issue}} {{/each}}"
+      "commitMessagePrefix": "{{#each upgrades}}{{this.depName}} {{/each}}"
     }
   ]
 }
