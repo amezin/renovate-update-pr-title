@@ -17,7 +17,7 @@
         "Pending",
         "Issue"
       ],
-      "prHeader": "{{#each upgrades as |upgrade|}}{{ upgrade.newValue }} {{/each}}"
+      "prHeader": "{{#each upgrades as |upgrade|}}{{ upgrade.prBodyColumns.Issue }} {{/each}}"
     }
   ]
 }
