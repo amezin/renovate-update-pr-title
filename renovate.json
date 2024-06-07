@@ -17,8 +17,7 @@
         "Pending",
         "Issue"
       ],
-      "prHeader": "{{#each upgrades as |upgrade|}}{{ upgrade.commitMessagePrefix }} {{/each}}"
+      "prHeader": "{{#each upgrades as |upgrade|}}\n{{{stringToPrettyJSON upgrade}}\n{{/each}}"
     }
-  ],
-  "commitMessagePrefix": "{{#each upgrades as |upgrade|}}{{ upgrade.commitMessagePrefix }} {{/each}}"
+  ]
 }

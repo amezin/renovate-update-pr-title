@@ -3,14 +3,12 @@
   "packageRules": [
     {
       "matchPackageNames": ["pyyaml"],
-      "commitMessagePrefix": "123",
       "prBodyDefinitions": {
         "Issue": "123"
       }
     },
     {
       "matchPackageNames": ["pymeta3"],
-      "commitMessagePrefix": "456",
       "prBodyDefinitions": {
         "Issue": "456"
       }
