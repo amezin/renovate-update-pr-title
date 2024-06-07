@@ -4,15 +4,16 @@
     {
       "matchPackageNames": ["pyyaml"],
       "matchNewValue": "==6.0.1",
-      "commitMessagePrefix": "TEST",
       "prBodyDefinitions": {
-        "Special Column": "[123](https://www.google.com)"
+        "Issue": "123"
       }
     },
     {
       "matchPackageNames": ["pymeta3"],
       "matchNewValue": "==0.5.1",
-      "commitMessagePrefix": "TEST2"
+      "prBodyDefinitions": {
+        "Issue": "456"
+      }
     }
   ]
 }

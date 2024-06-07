@@ -15,8 +15,9 @@
         "Update",
         "Change",
         "Pending",
-        "Special Column"
-      ]
+        "Issue"
+      ],
+      "commitMessagePrefix": "{{#each upgrades}}{{this.prBodyDefinitions.Issue}} {{/each}}"
     }
   ]
 }
