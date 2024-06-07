@@ -17,7 +17,7 @@
         "Pending",
         "Issue"
       ],
-      "prHeader": "{{#each upgrades as |upgrade|}}\n{{{updgrade.prBodyDefinitions}}}\n{{/each}}"
+      "prHeader": "{{#each upgrades as |upgrade|}}\n{{{upgrade.prBodyDefinitions}}}\n{{/each}}"
     }
   ]
 }
